@@ -197,10 +197,11 @@ async function loadAllData() {
   fetch("./data/cases.json"),
   fetch("./data/evidence-index.json"),
   fetch("./data/approvals.json"),
-  isOps() ? fetchJson('/api/investigators') : Promise.resolve({ investigators: [] }),
-  isOps() ? fetchJson('/api/approvals') : Promise.resolve({ approvals: [] }),
-  fetchJson('/api/notifications'),
-  isAdmin() ? fetchJson('/api/compliance-schedule') : Promise.resolve({ settings: null })
+
+  Promise.resolve({ investigators: [] }),
+  Promise.resolve({ approvals: [] }),
+  Promise.resolve({ notifications: [] }),
+  Promise.resolve({ settings: null })
 ];
     if (isAdmin()) {
       requests.push(fetchJson('/api/users'));
