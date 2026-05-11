@@ -1,0 +1,70 @@
+[
+  {
+    "id": "EV-MO8KB24T-0CC883",
+    "fileName": "tamper-check.txt",
+    "fileType": "text/plain",
+    "fileSize": 31,
+    "uploadedAt": "2026-04-21T11:50:23.885Z",
+    "uploadedBy": "Investigator",
+    "uploaderId": "57207d53-a4ce-4d6f-83f4-73b176d652ae",
+    "role": "investigator",
+    "hash": "430b27f5be51d9ae1ca7b8e591a11052e09c7c734448d6a996ae556f2aeab267",
+    "status": "Tampered",
+    "integrityLabel": "Integrity Locked",
+    "storagePath": "C:\\Users\\somas\\Documents\\Codex\\2026-04-21-build-a-modern-secure-web-application-2\\data\\evidence\\EV-MO8KB24T-0CC883.txt.enc",
+    "encryption": {
+      "iv": "a4b508cb6501c2ec1bad27cd",
+      "authTag": "04b353521e9cdcbb160087295548b52d"
+    },
+    "lastVerifiedAt": "2026-04-28T05:04:25.597Z",
+    "lastVerifiedBy": "Admin",
+    "tamperDetectedAt": "2026-04-28T09:54:56.838Z",
+    "folderId": "email-fraud-case",
+    "folderName": "Email Fraud Case",
+    "caseId": "5493df7f-c49b-4297-8eb4-1e38d218a07a",
+    "caseNumber": "CF-2026-001",
+    "caseTitle": "Business Email Compromise Review",
+    "metadata": {
+      "deviceSource": "",
+      "seizureDate": "",
+      "incidentType": "",
+      "severity": "medium",
+      "tags": [],
+      "investigatorNotes": ""
+    }
+  },
+  {
+    "id": "EV-MO8K95RV-D0D45D",
+    "fileName": "sample-log.txt",
+    "fileType": "text/plain",
+    "fileSize": 25,
+    "uploadedAt": "2026-04-21T11:48:55.294Z",
+    "uploadedBy": "Admin",
+    "uploaderId": "25bcc659-8229-4a55-b796-280aca83dd85",
+    "role": "admin",
+    "hash": "b01bfc345a526efff453c1ad9a66d69328155764cf148b738f795f8290370013",
+    "status": "Secure",
+    "integrityLabel": "Integrity Locked",
+    "storagePath": "C:\\Users\\somas\\Documents\\Codex\\2026-04-21-build-a-modern-secure-web-application-2\\data\\evidence\\EV-MO8K95RV-D0D45D.txt.enc",
+    "encryption": {
+      "iv": "b77668ee79cd32aaab3083bf",
+      "authTag": "cf71f0f8eee7f2ab9d4682406dbcbe1d"
+    },
+    "lastVerifiedAt": "2026-04-28T05:05:36.488Z",
+    "lastVerifiedBy": "Priya Nair",
+    "tamperDetectedAt": null,
+    "folderId": "email-fraud-case",
+    "folderName": "Email Fraud Case",
+    "caseId": "5493df7f-c49b-4297-8eb4-1e38d218a07a",
+    "caseNumber": "CF-2026-001",
+    "caseTitle": "Business Email Compromise Review",
+    "metadata": {
+      "deviceSource": "",
+      "seizureDate": "",
+      "incidentType": "",
+      "severity": "medium",
+      "tags": [],
+      "investigatorNotes": ""
+    }
+  }
+]

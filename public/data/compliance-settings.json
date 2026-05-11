@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "cadence": "weekly",
+  "recipients": [
+    "admin-chief"
+  ],
+  "nextRunAt": "2026-05-02T11:24:06.874Z"
+}

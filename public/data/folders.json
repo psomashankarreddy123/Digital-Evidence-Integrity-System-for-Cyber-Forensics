@@ -1,0 +1,32 @@
+[
+  {
+    "id": "email-fraud-case",
+    "name": "Email Fraud Case",
+    "description": "Suspicious email threads, attachments, and phishing artifacts.",
+    "status": "active",
+    "createdAt": "2026-04-22T11:29:12.161Z",
+    "caseId": "5493df7f-c49b-4297-8eb4-1e38d218a07a",
+    "caseNumber": "CF-2026-001",
+    "caseTitle": "Business Email Compromise Review"
+  },
+  {
+    "id": "network-intrusion-logs",
+    "name": "Network Intrusion Logs",
+    "description": "Firewall exports, IDS alerts, and authentication traces.",
+    "status": "active",
+    "createdAt": "2026-04-22T11:29:12.161Z",
+    "caseId": "5e662ec7-aa54-4495-a11e-93e92bfd8d7e",
+    "caseNumber": "CF-2026-002",
+    "caseTitle": "Internal Network Intrusion"
+  },
+  {
+    "id": "malware-analysis-lab",
+    "name": "Malware Analysis Lab",
+    "description": "Sandbox output, memory captures, and extracted samples.",
+    "status": "active",
+    "createdAt": "2026-04-22T11:29:12.161Z",
+    "caseId": "5e662ec7-aa54-4495-a11e-93e92bfd8d7e",
+    "caseNumber": "CF-2026-002",
+    "caseTitle": "Internal Network Intrusion"
+  }
+]

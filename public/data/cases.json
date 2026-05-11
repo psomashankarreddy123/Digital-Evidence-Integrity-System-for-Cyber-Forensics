@@ -1,0 +1,44 @@
+[
+  {
+    "id": "5493df7f-c49b-4297-8eb4-1e38d218a07a",
+    "caseNumber": "CF-2026-001",
+    "title": "Business Email Compromise Review",
+    "suspectName": "Unknown External Sender",
+    "department": "Cyber Crime Unit",
+    "status": "active",
+    "assignedInvestigatorIds": [
+      "57207d53-a4ce-4d6f-83f4-73b176d652ae",
+      "0f89fa19-c85d-4f74-aa0d-08fd605e3d2b"
+    ],
+    "assignedInvestigatorNames": [
+      "Investigator",
+      "Priya Nair"
+    ],
+    "notes": "Track suspicious sender infrastructure, invoice spoofing artifacts, and mailbox evidence.",
+    "findings": "",
+    "milestones": [],
+    "createdAt": "2026-04-25T10:27:43.244Z",
+    "updatedAt": "2026-04-25T10:27:43.244Z"
+  },
+  {
+    "id": "5e662ec7-aa54-4495-a11e-93e92bfd8d7e",
+    "caseNumber": "CF-2026-002",
+    "title": "Internal Network Intrusion",
+    "suspectName": "Pending Attribution",
+    "department": "Incident Response",
+    "status": "active",
+    "assignedInvestigatorIds": [
+      "622cc676-16b1-4261-8d61-1cc77b899e67",
+      "f6c4d2c9-4934-4a0c-a01f-352325bca6d8"
+    ],
+    "assignedInvestigatorNames": [
+      "Arjun Mehta",
+      "Neha Kapoor"
+    ],
+    "notes": "Correlate intrusion logs, lateral movement traces, and malware execution evidence.",
+    "findings": "",
+    "milestones": [],
+    "createdAt": "2026-04-25T10:27:43.244Z",
+    "updatedAt": "2026-04-25T10:27:43.244Z"
+  }
+]
