@@ -698,12 +698,18 @@ function renderAdminDashboardSection() {
 }
 
 function renderInvestigatorDashboardSection() {
-  const summary = state.dashboard.summary;
-  const latestRecord = state.dashboard.recentEvidence[0];
+  const summary = state.dashboard?.summary || {
+  totalCases: 0,
+  totalEvidence: 0,
+  secureEvidence: 0,
+  tamperedEvidence: 0
+};
+
+const latestRecord = state.dashboard?.recentEvidence?.[0] || null;
   return `
     <section class="dashboard-grid">
       ${renderNotificationCenter()}
-      ${state.dashboard.alerts.map((alert) => `<div class="alert-banner ${alert.level}">${alert.level === 'critical' ? warningIcon() : shieldIcon()} <strong>${alert.message}</strong></div>`).join('')}
+      ${(state.dashboard?.alerts || []).map((alert) => `<div class="alert-banner ${alert.level}">${alert.level === 'critical' ? warningIcon() : shieldIcon()} <strong>${alert.message}</strong></div>`).join('')}
       <section class="ops-hero">
         <article class="panel-card ops-hero-panel">
           <div class="panel-header">
@@ -762,7 +768,7 @@ function renderInvestigatorDashboardSection() {
             </div>
           </div>
           <div class="timeline">
-            ${state.dashboard.recentLogs.slice(0, 5).map(renderTimelineItem).join('') || `<p class="muted">No activity logged yet.</p>`}
+            ${(state.dashboard?.recentLogs || []).slice(0, 5).map(renderTimelineItem).join('') || `<p class="muted">No activity logged yet.</p>`}
           </div>
         </section>
       </div>
