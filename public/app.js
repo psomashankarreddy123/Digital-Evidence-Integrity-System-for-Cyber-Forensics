@@ -193,11 +193,10 @@ function boot() {
 async function loadAllData() {
   try {
     const requests = [
-      fetchJson('/api/dashboard'),
-      fetchJson('/api/evidence'),
-      fetchJson('/api/audit-logs'),
-      fetchJson('/api/folders'),
-      fetchJson('/api/cases'),
+      fetch("./data/users.json")
+      fetch("./data/cases.json")
+      fetch("./data/evidence-index.json")
+      fetch("./data/approvals.json")
       isOps() ? fetchJson('/api/investigators') : Promise.resolve({ investigators: [] }),
       isOps() ? fetchJson('/api/approvals') : Promise.resolve({ approvals: [] }),
       fetchJson('/api/notifications'),
